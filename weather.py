@@ -127,7 +127,7 @@ class Weather:
         Retrieves the temperature (Current, Feels, Min, Max, Humidity) of the city.
 
         Returns:
-            dict or None: A dictionary containing all of the above information in the same order.
+            list or None: A dictionary containing all of the above information in the same order.
         """
         result = self.make_request()
         if result:
