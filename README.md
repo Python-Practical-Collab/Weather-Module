@@ -5,7 +5,7 @@ The `Weather` class is designed to fetch weather information from the OpenWeathe
 #### Constructor
 
 ```python
-def __init__(self, city: str, api: str = "00cd4be2b420a9aac2dceca8849fac6f") -> None:
+def __init__(self, city: str, api: str) -> None:
     """
     Initializes a Weather instance.
 
